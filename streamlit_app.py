@@ -1,5 +1,3 @@
-pip install matplotlib
-
 #Input the relevant libraries
 import numpy as np
 import pandas as pd
@@ -25,7 +23,7 @@ def app():
     text = """Feature representation: Binary values (1 or 0) representing the 8x8 pixels of an image.
         Target variable: A single categorical variable representing the class 
         of the image (e.g., digit recognition, traffic sign classification).
-        Potential Applications:"""
+        """
     st.write(text)
     
     # display choice of classifier
