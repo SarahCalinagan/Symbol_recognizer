@@ -20,11 +20,9 @@ def app():
     st.write('Dataset description:')
 
     st.write('Number of features: 64')
-    text = """Feature representation: Binary values (1 or 0) representing the 8x8 pixels of an image.
-        Target variable: A single categorical variable representing the class 
-        of the image (e.g., digit recognition, traffic sign classification).
-        """
-    st.write(text)
+    st.write('Feature representation: Binary values (1 or 0) representing the 8x8 pixels of an image.')
+    st.write('Target variable: A single categorical variable representing the class of the image which is from the dataset, faces and shapes')
+   
     
     # display choice of classifier
     clf = BernoulliNB() 
