@@ -1,3 +1,5 @@
+pip install matplotlib
+
 #Input the relevant libraries
 import numpy as np
 import pandas as pd
